@@ -8,9 +8,6 @@ export default function Header() {
                 <span className="bg-asset absolute z-20"></span>
                 <span className="bg-title bg-contain absolute bg-no-repeat bg-center inset-x-0 bottom-0 h-16 z-30"></span>
             </div>
-            <div className="banner z-50">
-                <Link href="/register" className="r-btn">Register</Link>
-            </div>
         </div>
     );
 }

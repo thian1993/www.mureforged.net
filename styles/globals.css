@@ -82,3 +82,23 @@ body {
   height: 208px;
   background-image: url("/images/btn_quick.png");
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    width: 80px;
+    height: 86px;
+    top: 200px;
+    right: 20px;
+  }
+  .r-btn {
+    background-image: url("/images/btn-wp.png");
+    background-repeat: no-repeat;
+  }
+  .bg-opening {
+    background-image: url("/images/bg-opening-movil.jpg");
+  }
+  .header-opening {
+    bottom: 42%;
+  }
+}
+  

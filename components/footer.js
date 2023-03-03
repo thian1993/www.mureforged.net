@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <>
-        <div className="banner z-50">
+        <div className="banner z-50 ">
             <Link href="https://chat.whatsapp.com/CiEAB3EmppgBo7wxsMtZH8" target="_blank" className="r-btn"></Link>
         </div>
         <footer className="bg-black backdrop-blur border-t border-slate-600/20 fixed inset-x-0 bottom-0">
